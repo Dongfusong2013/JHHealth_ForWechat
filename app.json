@@ -1,22 +1,30 @@
 {
-  "pages": [    
+  "pages": [
+    "pages/live/live",
     "pages/home/home",
     "pages/index/index",
     "pages/study/study",
-    "pages/me/me",    
+    "pages/me/me",
     "pages/pay/pay",
-    "pages/result/result"
+    "pages/result/result"   
   ],
-  "tabBar": {  
+  "tabBar": {
     "list": [
+      {
+        "iconPath":"public/18_default.png",
+        "selectedIconPath":"public/18.png",
+        "pagePath": "pages/live/live",
+        "text": "直播"
+      },
       {
         "pagePath": "pages/home/home",
         "text": "首页"
       },
       {
-        "pagePath": "pages/study/study",      
+        "pagePath": "pages/study/study",
         "text": "学习"
       },
+      
       {
         "pagePath": "pages/me/me",
         "text": "我"
