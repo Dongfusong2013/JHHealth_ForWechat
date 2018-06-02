@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<view class='i_container'>
+  <view class='submit'>
+    <view class='inputer'>
+      <view>姓名</view>
+      <input class="input" maxlength="10" data-type="user" bindinput='bindKeyInput' type='text' />
+    </view>
+    <view class='inputer'>
+      <view>密码</view>
+      <input class="input" maxlength="10" data-type="password" bindinput='bindKeyInput' password type='text' />
+    </view>
+    <button class='submitButton l_c' bindtap='onSubmit'>
+    <text class='subtext'>提交</text>    </button>
+  </view>
+
+</view>
